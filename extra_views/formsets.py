@@ -1,4 +1,4 @@
-from functool import wrap, partial
+from functools import wraps, partial
 
 import django
 from django.views.generic.base import TemplateResponseMixin, View, ContextMixin
